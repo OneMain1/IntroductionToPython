@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>440bd394-f51d-4eda-b5b8-d1f9821ea96e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Function.py</StartupFile>
+    <StartupFile>3.1 Function.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="2.5 for-else and while-else.py" />
-    <Compile Include="Function.py" />
+    <Compile Include="3.1 Function.py" />
     <Compile Include="IntroductionToPython.py" />
     <Compile Include="test.py" />
   </ItemGroup>
