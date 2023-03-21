@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>440bd394-f51d-4eda-b5b8-d1f9821ea96e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3.1 Function.py</StartupFile>
+    <StartupFile>3.2 Return.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +23,8 @@
   <ItemGroup>
     <Compile Include="2.5 for-else and while-else.py" />
     <Compile Include="3.1 Function.py" />
+    <Compile Include="3.2 Return.py" />
     <Compile Include="IntroductionToPython.py" />
-    <Compile Include="test.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

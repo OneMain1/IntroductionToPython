@@ -1,5 +1,5 @@
-for x in [1, 2, 3, 4]:
-    print(x)
+for xx in [1, 2, 3, 4]:
+    print(xx)
 else:
     print("All elements are printed.")
 
@@ -7,9 +7,9 @@ else:
 
 
 
-for x in [1, 2, 3, 4]:
-    if x % 3:
-        print(x)
+for xxx in [1, 2, 3, 4]:
+    if xxx % 3:
+        print(xxx)
     else:
         break
 else:
