@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>440bd394-f51d-4eda-b5b8-d1f9821ea96e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>0.1 Input.py</StartupFile>
+    <StartupFile>2.3 For.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,6 +36,7 @@
     <Compile Include="2.2 If elif else.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="2.3 For.py" />
     <Compile Include="2.5 for-else and while-else.py" />
     <Compile Include="3.1 Function.py" />
     <Compile Include="3.2 Return.py" />
