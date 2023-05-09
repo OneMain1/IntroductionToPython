@@ -205,3 +205,49 @@ print(sumOfDigitss((int(input()))))
 
 # Problem 4.2.4
 
+# 1
+
+from math import sqrt
+
+def prime(n):
+    N = list(range(2, n + 1))
+
+    i = 0
+    while i <= sqrt(n) and len(N) > i:
+        #print('\ncheck multiple of ', N[i])
+        j = i
+        while i <= j <= n and len(N) > j:
+            #print(f'N[{j}]: {N[j]}', end='')
+            if N[j] != N[i] and N[j] % N[i] == 0:
+                del N[j]
+                #print(' <= deleted')
+                if len(N) == j:
+                    break
+            else:
+                #print('')
+                j += 1
+        if len(N) == i:
+            break
+        else:
+            i += 1
+
+    #print(f'\nprime numbers under {n}: ', end='')
+    print(N)
+
+prime(int(input()))
+
+
+
+# Problem 4.2.5
+
+# 1
+
+decimal = int(input())
+binary = bin(decimal)
+lbinary = []
+
+for i in range(2, len(binary)):
+    lbinary.append(binary[i])
+
+print(lbinary)
+
